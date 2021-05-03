@@ -18,7 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProEarthquakeWatcher">
-        <activity android:name=".Activities.SignUp"></activity>
+        <activity android:name=".Activities.RegisterActivity"></activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.SignUp" />
         <activity android:name=".MapsActivity" />
         <activity android:name=".Activities.QuakesListActivity" />
         <!--
@@ -34,7 +36,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name=".Activities.SignIn"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
